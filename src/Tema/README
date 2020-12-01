@@ -19,6 +19,16 @@ care au revizuit-o.
 La Username:
 
 -History este un hasmap cu cheia videouri si cu elemente numarul de vizionari
+-favorites este un arraylist cu toate numele vidurilor favorite
 
 *addFavorite :
-verifica initial daca videoul respetiv este in lista lui de history, daca da atunci se verifica daca 
+verifica initial daca videoul respetiv este in lista lui de history, daca da atunci se verifica daca userul respectiv
+are deja vidu in favorite cautand in campul favorites. Daca nu, adaug in favorite si updatez ArrayListurile.
+
+*vizionare:
+verific in history daca userul s-a mai uitat la videoclip. Daca da, adaug unu in history la cheia cu valoarea numelui videoclipului, daca nu, atunci adaug ca si element cu valoarea 1.
+
+*rateFilm
+verific daca campul history are numele filmului si daca nu a fost inca gradat atunci adaug 1 la actiuni(numarul de gradari ale user-ului) si adaug in database ratingul.
+*rateSerial
+similar cu filmul doar ca se updateaza database ul de seriale.

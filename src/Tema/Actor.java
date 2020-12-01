@@ -3,18 +3,14 @@ package Tema;
 import actor.ActorsAwards;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
-
-
-import static java.util.stream.Collectors.toList;
 public class Actor {
     private double average;
     private String name;
     private String career_description;
     private Map<ActorsAwards, Integer> awards; //
-    private ArrayList<String> videos = new ArrayList<>(); //pentru a retine in constructor numele vidurilor
+    private ArrayList<String> videos = new ArrayList<>();
+    //pentru a retine in constructor numele vidurilor
     public String getName() {
         return name;
     }
