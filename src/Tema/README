@@ -1,0 +1,24 @@
+Clasa Actor are in plus:
+* Un array list unde tin numele tuturor videourilor pe care le-a vazut
+In Actordb imi voi tine toti actorii dati la input
+
+Command este o clasa facuta pentru a apela mai usor primele comenzi.
+
+Film_db reprezinta clasa unde primim informatiile de la input despre Filme. Acesta 
+este alcatuit dintr-un hasmap cu cheile numele filmului si informatia filmul in sine.
+
+
+Query este folosit pentru a apela fucntia nr_ratings. Acolo, iau un auxiliar unde copiez 
+toti userii si iterez prin ei si ii sortez in functie de actiunile sale dupa care iau doar primii N.
+
+In Seasons avem in plus, un ArrayList de ce users au revizuit videoul respectiv.
+ 
+La Serial_db functia de addRating adauga ratingul in HashMap si actualizeaza lista de username
+care au revizuit-o.
+
+La Username:
+
+-History este un hasmap cu cheia videouri si cu elemente numarul de vizionari
+
+*addFavorite :
+verifica initial daca videoul respetiv este in lista lui de history, daca da atunci se verifica daca 
